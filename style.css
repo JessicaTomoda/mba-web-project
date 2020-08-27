@@ -4,6 +4,10 @@
     /*justify-content: center;*/
     font-family: 'Gaegu', cursive;
     /*border: 1px solid black;*/
+    background-color: #FFFFFF;
+	/*position: relative;*/
+    /*box-shadow: 0px 5px 5px 0px #dec1b7;*/
+    /*margin-bottom: 10%;*/
 }
 
 /* Incio do CSS do menu */
@@ -40,31 +44,55 @@
     align-content: center;
     justify-content: center;
     width: 100%;
+    font-family: 'Gaegu', cursive;
     /*border: 2px solid black;*/
+}
+/* CSS da pagina Contato */
+.contact-div {
+    position: relative;
+    width: 50%;
+    margin:auto;
+    border: 1px solid #9a9a9c ;
+    background-color: #FFFFFF;
+    box-shadow: 5px -5px 5px 0px #dec1b7;
+    font-family: 'Gaegu', cursive;
+}
+.form-style{
+    align-content: center;position: absolute;
+    display: block;
 }
 
 .article-box{
     /*border: 1px solid black;/*  expesura da borda + cor*/
     width: 40%; /*porcentagem do box em relacao a tela*/
-    height: auto%;
+    height: auto;
     padding: 10px;
     margin-right:2%;
     margin-left:2%;
     font-family: 'Gaegu', cursive;
     border-radius: 5px 5px; /* arredondamento de borda*/
-       /*Sombreado nas bordas*/
-       background-color: #FFFFFF;
-       position: relative;
-       box-shadow: 5px -5px 5px 0px #dec1b7;
-       /*Fim do sembreado*/
+    /*Sombreado nas bordas*/
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 5px -5px 5px 0px #dec1b7;
+    /*Fim do sembreado*/
 
     
 }
 
-img{
+.img-geral{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5%;
+    background-color: #FFFFFF;
+	position: relative;
+    box-shadow: 5 0 8px 8px white inset;
+    
+}
+.img-perfil{
+    border-radius:70%;
+    width: 40%;
 }
 
 /*.bordas {
@@ -74,8 +102,10 @@ img{
     
 } */
 .article-box2{
-    border:0;
+   
     font-family: 'Gaegu', cursive;
+    padding:0;
+    /*border: 1px solid #9a9a9c ;*/
 }
 .article-box-bottom{
     border: 1px solid #9a9a9c ;
@@ -88,6 +118,7 @@ img{
     margin-right:2%;
     margin-left:2%;
     margin-top: 2%;
+    margin-bottom: 2%;
     /*Sombreado nas bordas*/
     background-color: #FFFFFF;
 	position: relative;
@@ -98,8 +129,9 @@ img{
 
 .text-article{
     text-align: justify;
-
 }
-
+.title{
+    text-align: center;
+}
 
 
