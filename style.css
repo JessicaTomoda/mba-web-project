@@ -98,6 +98,10 @@
     border-radius:70%;
     width: 40%;
 }
+.img-wuv{
+    width:20% ;
+    align-content: center;
+}
 
 /*.bordas {
     border-width: 2px;
@@ -136,6 +140,9 @@
 .text-article{
     text-align: justify;
 }
+.text-article-bottom{
+    text-align: center;
+}
 .title{
     text-align: center;
 }
@@ -147,4 +154,17 @@ h1{
 
 p{
     font-family: 'Gaegu', cursive;
+}
+
+.table-activit{
+    border:1px solid #9a9a9c;
+    width: 70%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+th{
+    background-color:#dec1b7;
+}
+td{
+    background-color:#f2e4df;
 }
