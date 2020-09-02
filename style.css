@@ -140,9 +140,9 @@
 .text-article{
     text-align: justify;
 }
-.text-article-bottom{
+./*text-article-bottom{
     text-align: center;
-}
+}*/
 .title{
     text-align: center;
 }
@@ -156,7 +156,7 @@ p{
     font-family: 'Gaegu', cursive;
 }
 
-.table-activit{
+.table-activity{
     border:1px solid #9a9a9c;
     width: 70%;
     margin-left:auto; 
@@ -167,4 +167,9 @@ th{
 }
 td{
     background-color:#f2e4df;
+}
+
+#copyrightInfo{
+    text-align: center;
+    text-align: center;
 }
