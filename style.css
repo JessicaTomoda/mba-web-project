@@ -140,7 +140,7 @@
 .text-article{
     text-align: justify;
 }
-./*text-article-bottom{
+/*text-article-bottom{
     text-align: center;
 }*/
 .title{
@@ -172,4 +172,9 @@ td{
 #copyrightInfo{
     text-align: center;
     text-align: center;
+}
+
+.event-button{
+    font-family: 'Gaegu', cursive;
+    text-align: center; 
 }
