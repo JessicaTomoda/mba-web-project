@@ -178,3 +178,19 @@ td{
     font-family: 'Gaegu', cursive;
     text-align: center; 
 }
+
+.section-blog{
+    font-family: 'Gaegu', cursive;
+    text-align: center; 
+}
+.div-blog{
+    font-family: 'Gaegu', cursive;
+    text-align: center; 
+    border: 1px solid #9a9a9c ;
+    background-color: #FFFFFF;
+    box-shadow: 5px -5px 5px 0px #dec1b7;
+    width: 70%;
+    align-content: center;
+    position: relative;;
+    margin:auto;
+}
