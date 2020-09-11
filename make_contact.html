@@ -20,15 +20,34 @@
 </head>
 <body>
     <br><br><br>
-    
+     
     <br>
     <div class=" contact-div title">
         <h1 >Make Contact.</h1>
         <div class="form-div">
+           
             <h1>We are working on the page.</h1>
+            <input placeholder="type your names!" class = input-to-copy />
+            <p class="article-text">Nothing has happened yet</p>
+            <script>    
+                const input = document.querySelector('.input-to-copy');
+                const paragraph = document.querySelector('.article-text');
+                input.addEventListener("keyup", function(){
+                    paragraph.innerText = input.value;
+                });
+                </script>
+
+            <button class="event-button">Enviar</button>
         
 
         <div class="form-div"> 
+
+            <script>
+                const buttonCadastro = document.querySelector('.event-button');
+                buttonCadastro.addEventListener('click', function() {
+                    alert('Cadastro efetuado com sucesso!');
+                });
+            </script>
     <!--- <h1 >Make Contact</h1>
              
             <form class="form-style">
