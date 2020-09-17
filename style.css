@@ -147,7 +147,7 @@
     text-align: center;
 }
 
-h1{
+h1, h2 {
     font-family: 'Gaegu', cursive;
     text-align: center; 
 }
@@ -197,4 +197,17 @@ td{
 
 .marquee-botton{
     background: "#dec1b7"
+}
+.travel-tb-img{
+    width: 200px;
+    height: auto;
+}
+
+.img-link a{
+    border: whitesmoke;
+}
+
+.img-link a:hover{
+    color: violet;
+    border: whitesmoke;
 }
