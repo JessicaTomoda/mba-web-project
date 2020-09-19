@@ -195,9 +195,6 @@ td{
     margin:auto;
 }
 
-.marquee-botton{
-    background: "#dec1b7"
-}
 .travel-tb-img{
     width: 200px;
     height: auto;
@@ -210,4 +207,7 @@ td{
 .img-link a:hover{
     color: violet;
     border: whitesmoke;
+}
+.marquee-botton{
+    text-align-last: center;
 }
