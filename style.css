@@ -195,18 +195,20 @@ td{
     margin:auto;
 }
 
-.travel-tb-img{
+.travel-tb-img {
     width: 200px;
     height: auto;
+    border: whitesmoke;
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
 
-.img-link a{
-    border: whitesmoke;
-}
 
-.img-link a:hover{
-    color: violet;
-    border: whitesmoke;
+
+.travel-tb-img:hover {
+       opacity: 0.3;
+    filter: alpha(opacity=30);
+
 }
 .marquee-botton{
     text-align-last: center;
