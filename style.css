@@ -91,9 +91,15 @@
     border-radius: 5%;
     background-color: #FFFFFF;
 	position: relative;
-    box-shadow: 5 0 8px 8px white inset;
-    
+    /*box-shadow: 5 0 8px 8px white inset;*/
 }
+
+   .img-center{
+    border: black;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+    
+
 .img-perfil{
     border-radius:70%;
     width: 40%;
@@ -156,7 +162,7 @@ p{
     font-family: 'Gaegu', cursive;
 }
 
-.table-activity{
+.table-insta{
     border:1px solid #9a9a9c;
     width: 70%;
     margin-left:auto; 
@@ -180,9 +186,12 @@ td{
 }
 
 .section-blog{
+    background-color: #dec1b7;
     font-family: 'Gaegu', cursive;
     text-align: center; 
+    align-content: center;
 }
+
 .div-blog{
     font-family: 'Gaegu', cursive;
     text-align: center; 
@@ -204,7 +213,6 @@ td{
 }
 
 
-
 .travel-tb-img:hover {
        opacity: 0.3;
     filter: alpha(opacity=30);
@@ -212,4 +220,21 @@ td{
 }
 .marquee-botton{
     text-align-last: center;
+    
+}
+.list-article{
+    margin-right: 15%;
+    line-height: 20px;
+}
+
+.insta-img{
+    width: 180px;
+    height: 200PX;
+}
+
+.insta-button{
+    border: 20px coral;
+    color: dimgray;
+    border-radius: 5%;
+
 }
