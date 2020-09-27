@@ -253,9 +253,11 @@ td{
 }
 
 .insta-button{
-    border: 20px coral;
+    border: dotte 20px rgba(255, 127, 80, 0.281);
     color: dimgray;
-    border-radius: 5%;
+    border-radius: 3%;
+    width: 150px;
+    
 
 }
 .title-insta{
@@ -265,3 +267,29 @@ td{
     font-size: 40px;
     font-family: 'Parisienne', cursive;
 }
+
+/*TOOLTIP INICIO*/
+.tooltip {  
+    position: relative;  
+    display: inline-block;  
+    border-bottom: 1px dotted black;
+}
+    
+.tooltip .tooltiptext {  
+   visibility: hidden;  
+    width: 120px;  
+    background-color:#dec1b7;  
+    color: #fff; 
+    box-shadow: rgba(0, 0, 0, 0.295);
+    text-align: center;  
+    border-radius: 6px;  
+    padding: 5px 0;  
+    /* Position the tooltip */  
+    position: absolute;  
+    z-index: 1;
+}    
+             
+.tooltip:hover .tooltiptext {  
+    visibility: visible;
+}
+/*TOOLTIP INICIO*/
