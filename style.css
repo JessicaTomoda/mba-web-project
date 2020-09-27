@@ -164,9 +164,10 @@ p{
 
 .table-insta{
     border:1px solid #9a9a9c;
-    width: 70%;
+    width: 75%;
     margin-left:auto; 
     margin-right:auto;
+   
 }
 
 th{
@@ -191,19 +192,22 @@ td{
     font-family: 'Gaegu', cursive;
     text-align: center; 
     align-content: center;
+    padding:20px;
     position: relative;
     margin: auto;
     align-items: center;
+    box-shadow: rgba(96, 88, 99, 0.267);
 }
 .section-traveling{
 
-font-family: 'Gaegu', cursive;
-text-align: center; 
-align-content: center;
-position: relative;
-margin: auto;
-align-items: center;
-}
+    font-family: 'Gaegu', cursive;
+    text-align: center; 
+    align-content: center;
+    position: relative;
+    margin: auto;
+    align-items: center;
+    box-shadow: rgba(96, 88, 99, 0.267);
+    }
 
 .div-blog{
     font-family: 'Gaegu', cursive;
@@ -243,6 +247,9 @@ align-items: center;
 .insta-img{
     width: 180px;
     height: 200PX;
+    align-content: center;
+    padding: 4% 4% 0% 4%;
+    border: 2px cornsilk;
 }
 
 .insta-button{
@@ -250,4 +257,11 @@ align-items: center;
     color: dimgray;
     border-radius: 5%;
 
+}
+.title-insta{
+    padding: 0%;
+    margin:0%;
+    border:0%;
+    font-size: 40px;
+    font-family: 'Parisienne', cursive;
 }
