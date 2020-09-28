@@ -188,6 +188,7 @@ td{
 }
 
 .section-blog{
+    background-image: url(./img/fundo_instagram.png);
     background-color: #dec1b7;
     font-family: 'Gaegu', cursive;
     text-align: center; 
